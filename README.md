@@ -10,4 +10,18 @@ composer require php-cmsig/http-list
 
 ## Usage
 
-TODO
+### Query List
+
+```php
+use PhpCmsig\HttpList\Cookies;
+
+Cookies::getCookies();
+```
+
+### Query List
+
+```php
+use PhpCmsig\HttpList\Queries;
+
+Queries::getQueries();
+```

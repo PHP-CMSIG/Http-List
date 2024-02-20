@@ -1,0 +1,14 @@
+{
+    "name": "php-cmsig/http-list",
+    "description": "Lists of common query parameters and cookies of different tools.",
+    "type": "library",
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PhpCmsig\\HttpList\\": "src/"
+        }
+    }
+}
